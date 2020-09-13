@@ -5,6 +5,7 @@
 user@linux:~/Wikipedia-Search-Engine$ python3 wiki_indexer.py <path to wikipedia dump>
 ```
 ##### A separate file ```doc_count.txt``` was kept. It has the number of documents in the dump (zero-based) and the threshold used for splitting, separated by comma.
+##### ```stats.txt``` stores the total size of index, along with the number of index files built and total number of tokens in the dump, all in separate lines.
 ##### The search file ```search.py``` requires ```doc_count.txt``` for the threshold and number of documents.
 
 ### To search/query, run
